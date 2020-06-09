@@ -1,0 +1,19 @@
+! XResources
+
+# include </home/chris/.config/themes/belge.theme>
+
+! URxvt config
+URxvt.title:	Terminal
+URxvt.internalBorder:	10
+URxvt.externalBorder:	10
+URxvt.depth:		32
+URxvt.letterSpace:	true
+URxvt.saveLines:	10000
+URxvt*geometry:		80x24
+URxvt.scrollBar:	false
+!URxvt*scrollTtyOutput:	false
+URxvt*terminalName:	rxvt-unicode-256color
+URxvt*visualBell:	false
+URxvt.font:		xft:xos4 Terminess Powerline:pixelsize=14,style=regular
+URxvt*cursorUnderline:	true
+URxvt*cursorBlink:	true
