@@ -19,3 +19,10 @@ runtime! archlinux.vim
 
 " Powerline shim?
 let g:powerline_pycmd="py3"
+
+set showcmd
+set showmatch
+set ignorecase
+set smartcase
+set nocompatible
+syntax on
