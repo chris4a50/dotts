@@ -18,11 +18,22 @@ runtime! archlinux.vim
 "let skip_defaults_vim=1
 
 " Powerline shim?
-let g:powerline_pycmd="py3"
+set laststatus=2
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
 
+set ruler
+
+set number
+set tabstop=4
+set expandtab
 set showcmd
 set showmatch
 set ignorecase
 set smartcase
 set nocompatible
 syntax on
+set noshowmode
+set noshowcmd
+set shortmess+=F

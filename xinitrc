@@ -48,6 +48,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+# Get our keybinds for volume via xbindkeysrc
+xbindkeys
+
 exec /usr/bin/i3
 
 # The below lines are shipped with Arch's .xinitrc by default,
