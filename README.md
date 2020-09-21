@@ -19,4 +19,4 @@ text font in Polybar will get changed, too.
 * Polybar theme from [https://github.com/adi1090x/polybar-themes](https://github.com/adi1090x/polybar-themes)
 * Rofi from rofi-git AUR & [https://github.com/davatorium/rofi](https://github.com/davatorium/rofi)
 
-<3
+
